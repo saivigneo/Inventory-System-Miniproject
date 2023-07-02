@@ -1,0 +1,20 @@
+create database final_project;
+use final_project;
+
+create table Admin_details (username varchar(50),password varchar(50));
+insert into admin_details values("Ajay Praveen",4502);
+insert into admin_details values("Ajit Praveen",2054);
+insert into admin_details values("Hemanth P",4568);
+insert into admin_details values("Sai Vignesh",6245);
+
+create table Agent_details (username varchar(50),password varchar(50));
+insert into Agent_details values("Nishit",1232);
+insert into Agent_details values("Athul",4679);
+insert into Agent_details values("Shreyas",6124);
+insert into Agent_details values("Sakthi",3642);
+
+create table Product (Product_ID int, Product_Name varchar(50), min_selling_quantity int, price int, quantity int);
+insert into product values(1,"Book",3,250,50);
+insert into product values(2,"Markers",5,25,100);
+insert into product values(3,"Pen",2,5,60);
+
